@@ -4,19 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/pages.css">
+    <title>The Office</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <p>Logo goes here</p>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Page1</a></li>
-                <li><a href="#">Page2</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <p>The Office</p>
+            </div>
+            <a id="top"></a>
+            <nav class="nav-top">
+                <ul>
+                   <li><a href="../index.html">Home</a></li>
+                   <li><a class="active" href="#">About</a></li>
+                   <li><a href="../pages/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <main>
+        <section class="hero-image">
+            <div class="hero-text">
+                <h1>Welcome to The Office</h1>
+                <p>Join us for some of the funniest quotes and images from The Office. Sign Up to receive new content notifications.</p>
+                <button class="btn1">Sign Up</button>
+            </div>
+            <div>
+                <img class="heroimg" src="./images/hero.jpeg" alt="Sticker Compilation of The Office">
+            </div>
+        </section>
+        <section class="sec1">
+            <figure class="quote">
+                <blockquote>
+                    “Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.”
+                </blockquote>
+                <figcaption>
+                  &ndash; Michael Scott, Season 5, “The Duel”
+                </figcaption>
+              </figure>
+        </section>
+        <section class="sec2">
+            <div class="blue">
+                <div class="action-text">
+                    <h1>Join Today!</h1>
+                    <p>Be one of the first to know when new content is released.</p>
+                </div>
+                <div class="action-button">
+                    <button class="btn2">Sign Up</button>
+                </div>
+            </div>
+        </section>
+        <section class="sec3">
+            <a href="#top" id="top"><img src= "../icons/up.png" alt="Back to top" width="30px"></a>
+        </section>
+        
+    </main>
     <footer>Copyright &copy;</footer>
 </body>
 </html>

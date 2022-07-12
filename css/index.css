@@ -27,7 +27,7 @@ nav {
     float:left;
     font-size: 24px;
     color: #F9FAF8;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-left: 100px;
 }
@@ -35,22 +35,14 @@ ul li {
     display: inline-block; 
     padding:10px;
     font-size:18px; 
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
 }
 ul a {
     color: #E5E7EB;
     text-decoration: none;
 }
-ul a:active {
-    color:#3882F6; 
-    text-decoration: none; 
-}
 ul a:hover {
     color:#3882F6;
-}
-ul a:visited {
-    color:#E5E7EB;
-    text-decoration: none;
 }
 .hero-image {
     background-color: #1F2937;
@@ -71,18 +63,17 @@ ul a:visited {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    font-family: 'Roboto-Black',Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Black', Arial, Helvetica, sans-serif;
 }
 .hero-text p{
     color: #E5E7EB;
     font-size: 18px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     width: 400px;
     margin-top: 5px;
 }
 .heroimg{
     padding: 15px;
-    width: 50%;
     overflow: hidden;
 
 }
@@ -101,8 +92,7 @@ ul a:visited {
     text-align: center;
     font-size: 36px;
     color: #1F2937;
-    font-family: 'RobotoB', Arial, Helvetica, sans-serif;
-
+    font-family: 'Roboto-Black', Arial, Helvetica, sans-serif;
 }
 .flex-container {
     flex-direction:row;
@@ -119,8 +109,8 @@ ul a:visited {
 .flex-item img{
     object-fit: contain;
     max-width: 200px;
-    border: 2px solid #3882F6;
-    border-radius: 7px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
 }
 .flex-item figcaption {
     max-width: 200px;
@@ -131,7 +121,7 @@ ul a:visited {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-family: 'RobotoLI', Arial, Helvetica, sans-serif
+    font-family: 'Roboto-LightItalic', Arial, Helvetica, sans-serif;
 }
 .quote{
     padding-left: 400px;
@@ -168,22 +158,20 @@ ul a:visited {
 .action-text{
     background-color: #3882F6;
     border-radius: 7px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
 }
 .action-text h1{
     background-color: #3882F6;
     border-radius: 7px;
     font-weight: bold;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     margin-bottom: 0;
-
 }
 .action-text p{
     background-color: #3882F6;
     border-radius: 7px;
     font-weight: 200;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     width: 450px;
     padding-right: 60px;
     padding-top: 3px;
@@ -196,7 +184,7 @@ ul a:visited {
     border: 3px solid #E5E7EB;
     color: #F9FAF8;
     font-size: 16px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
@@ -204,11 +192,13 @@ ul a:visited {
     padding-bottom: 10px;
 }
 .sec3 {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     color:#3882F6; 
     text-decoration: none; 
     font-weight: bold;
     font-size: 16px;
+    float: right;
+    padding-right: 60px;
 }
 #top {
     color: #3882F6;
@@ -229,5 +219,5 @@ footer {
     height: 70px;
     color:#F9FAF8;
     text-align: center;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
 }
