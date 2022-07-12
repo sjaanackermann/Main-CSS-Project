@@ -87,6 +87,10 @@ ul a:hover {
     font-weight: bold;
     border: none;
 }
+.btn1:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
 .figh1{
     padding-top: 20px;
     text-align: center;
@@ -193,6 +197,10 @@ figcaption{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.btn2:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 .sec3 {
     font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;

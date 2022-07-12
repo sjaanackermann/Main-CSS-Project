@@ -103,6 +103,7 @@ h2{
 .gallery img{
     border: 3px #3882F6 solid;
     margin-top: 20px;
+    border-radius: 7px;
 }
 .row {
     display: flex;
@@ -112,7 +113,7 @@ h2{
 }
 .col {
    flex: 0 0 calc(33.3% - 30px);
-   padding-left: 20px;
+   padding-left: 50px;
    padding-top: 30px;
    padding-bottom: 50px;
 }
@@ -125,8 +126,16 @@ h2{
     height: 350px;
     padding-bottom: 50px;
 }
-.flex-item {
-    padding-right: auto;}
+/* .flex-item {
+    padding-right: auto;
+} */
+.boss{
+    text-align: center;
+}
+.boss img{
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
 .flex-item img{
     object-fit: contain;
     max-width: 200px;
@@ -215,6 +224,10 @@ figcaption{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.btn2:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 .sec3 {
     font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
