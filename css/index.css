@@ -106,7 +106,8 @@ ul a:hover {
     padding-bottom: 50px;
 }
 .flex-item {
-    padding-right: auto;}
+    padding-right: auto;
+}
 .flex-item img{
     object-fit: contain;
     max-width: 200px;
@@ -118,6 +119,7 @@ ul a:hover {
 }
 figcaption{
     font-family: 'Roboto-Regular',Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .sec1{
     height: 500px;
